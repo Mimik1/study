@@ -1,0 +1,129 @@
+V "GNAT Lib v7"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U lab4lista%b		lab4lista.adb		137b0f0a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-nudira.ads		20160418104118 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160418104118 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D lab4lista.adb		20201102092224 acb82e95 lab4lista%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imguns.ads		20140717070019 9ff43cf7 system.img_uns%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-rannum.ads		20150205111725 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160418125822 20ba1217 system.random_numbers%b
+D s-ransee.ads		20120130115052 01a57b33 system.random_seed%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-valuns.ads		20150220142606 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 1r40 2r5 2r18 83r29
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|1w23 2r22
+X 5 a-numeri.ads
+16K13*Numerics 32e17 15|1r44 83r33
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 15|1w53 83r42
+50R9 Generator<22|63R9> 15|85r14[83]
+52V13 Random{integer} 15|91s11[83]
+55U14 Reset<22|100p14> 15|88s9[83]
+X 7 a-nudira.adb
+53V16 Random[22|83]{integer} 23|392b13[15|83]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|24s5
+263U14*Put_Line 15|18s5 20s5
+X 11 a-tiinio.ads
+66U14*Put 15|23s5[3|18]
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 15 lab4lista.adb
+4U11*Lab4Lista 4b11 172l5 172t14
+6R6 Element 10e13
+8i5 Data{integer} 23r11 32m5 59r14 67r27 107r30 129r14 136r22
+9p5 Next 25r12 33m5 60m19 66r17 67r22 68m27 68r37 69m27 72r24 76m11 76r21
+. 77m11 110r32 120r30 130r30 137m27 137r37 141r24
+12P6 Elem_Ptr 29r32 30r7 45r37 46r13 47r13 82r37 97r31 98r13 119r32 120r13
+. 121r13 145r9
+14U11 Print 14b11 14^17 27l5 27t10 148s3 150s3 152s3 156s3 169s9 170s9
+14p17 List(6R6) 15r25 17r6
+15p3 L(6R6) 22r9 23r9 25m5 25r10
+29U11 Insert 29b11 29=18 29>42 36l5 36t11 151s3 154s3
+29p18 List{12P6} 33r13 35m3
+29i42 D{integer} 32r13
+30p3 E{12P6} 32r3 33r3 35r11
+39V10 Insert(6R6) 39^17 39>40 149s12
+39p17 List(6R6) 40r20
+39i40 D{integer} 40r18
+45U11 Insert_Sort 45b11 45=23 45>47 79l5 79t16 92s17
+45p23 List{12P6} 47r25 50r21 53r12 54m17 60r27 61m17
+45i47 D{integer} 50r19 59r21 67r34
+46p9 E{12P6} 50r9 54r25 60r17 61r25 68r25 69r35 76r9 77r19
+47p9 L{12P6} 59r12 66r15 67r20 68r35 69r25 72m17 72r22 76r19 77r9
+82U11 Add_Randoms 82b11 82=23 82>47 82>63 94l5 94t16
+82p23 List{12P6} 92m29
+82i47 N{integer} 90r21
+82i63 M{integer} 91r28
+83K17 Rand[6|44] 84r13
+85r9 Gen{6|50R9[83]} 88r15 91r18
+86i9 D{integer} 91m5 92r35
+90i13 I{integer}
+97V10 Search{boolean} 97b10 97=17 97>41 116l5 116t11
+97p17 List{12P6} 98r25 101r12
+97i41 D{integer} 107r37
+98p9 L{12P6} 106r23 107r28 110m25 110r30
+119U11 Delete 119b11 119=18 119>42 143l5 143t11 166s9 167s9 168s9
+119p18 List{12P6} 120r25 121r25 124r12 130m17 130r25
+119i42 D{integer} 129r21 136r29
+120p9 L{12P6} 135r15 136r20 137r35 140r22 141m17 141r22
+121p9 P{12P6} 129r12 137r25 140m17
+145p1 Lista{12P6} 148r9 149m3 149r19 150r9 151m10 151r10 152r9 154m10 154r10
+. 156r9 166m16 166r16 167m16 167r16 168m16 168r16 169r15 170r15
+153i7 I{integer} 154r17
+X 22 s-rannum.ads
+75V13*Random{13|74M9} 23|221i21
+76V13*Random{13|77M9} 23|221i21
+

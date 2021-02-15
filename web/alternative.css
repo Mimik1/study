@@ -1,0 +1,108 @@
+body {
+	max-width: 960px;
+ 	background-color: silver;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: red;
+	letter-spacing: 5px;
+	text-indent: 5%;
+}
+
+h2 {
+	color: blue;
+	text-indent: 3%;
+}
+
+h3 {
+	text-indent: 1%;
+}
+
+p:first-letter {
+	color: orange;
+	font-size: large;
+}
+
+p:hover {
+	cursor: default;
+	color: green;
+}
+
+table {
+	background-color: #ff3333;
+	border: 3px solid green;
+}
+
+.kolumna2 {
+	background-color: silver;
+}
+
+.kolumna1 {
+	background-color: grey;
+}
+
+thead {
+	background-color: yellow;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+tbody {
+	font-style: italic;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+#Tytuł {
+	font-size: 25px;
+	background-color: blue;
+	width: 100%;
+}
+
+#Treść {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-color: grey;
+}
+
+#Spis_treści {
+	float: left;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: grey;
+}
+
+#Spis_treści ul li {
+	display: inline-table;
+	width: 220px;
+	background-color: yellow;
+	border-color: green;
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#Obrazek {
+	float: left;
+	clear: none;
+}
+
+#Obrazek2 {
+	float: right;
+	clear: none;
+}

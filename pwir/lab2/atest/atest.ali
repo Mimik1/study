@@ -1,0 +1,139 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U atest%b		atest.adb		9ed8a657 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.sequential_io%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+Z ada.text_io.modular_aux%s  a-timoau.adb	a-timoau.ali
+W ada.text_io.modular_io%s
+Z ada.unchecked_conversion%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+Z system%s		system.ads		system.ali
+Z system.byte_swapping%s  s-bytswa.ads		s-bytswa.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.direct_io%s	s-direio.adb		s-direio.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-direio.ads		20170106115856 f6c0afac ada.direct_io%s
+D a-direio.adb		20170106115856 91db6ece ada.direct_io%b
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20170106115856 10138ec7 ada.sequential_io%s
+D a-sequio.adb		20170106115856 93d6700a ada.sequential_io%b
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflau.ads		20090409150019 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20090409150019 fd9b1cfc ada.text_io.float_io%b
+D a-tiinau.ads		20090409150019 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20091130162119 df9cd7af ada.text_io.integer_io%b
+D a-timoau.ads		20140801083227 01c06610 ada.text_io.modular_aux%s
+D a-timoio.ads		20140717063513 d32407b9 ada.text_io.modular_io%s
+D a-timoio.adb		20090409150019 de0ea1c6 ada.text_io.modular_io%b
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D atest.adb		20201021105807 406672e8 atest%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-bytswa.ads		20120712104318 799c7440 system.byte_swapping%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-direio.ads		20140731132958 7c86ede3 system.direct_io%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-fileio.ads		20120709130952 45ce2f0f system.file_io%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-sequio.ads		20090409150019 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 21|2r6 2r29 3r6 4r6 9r25 10r25 11r25 12r25 14r24 15r24 16r24
+X 2 a-direio.ads
+43k13*Direct_IO 193e18 21|4w10 12r29
+X 6 a-sequio.ads
+43k13*Sequential_IO 160e22 21|3w10 9r29 10r29 11r29
+53P9 File_Type<34|63P9> 21|19r17[11] 20r17[10] 21r17[9]
+55E9 File_Mode
+55n32 Out_File{55E9[21|10]} 21|39r29[10] 45r29[11] 51r29[9]
+70U14 Create 21|39s9[10] 45s9[11] 51s9[9]
+82U14 Close 21|43s9[10] 49s9[11] 55s9[9]
+100U14 Write 21|41s12[10] 47s12[11] 53s12[9]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 21|2w10 2r33 14r28 15r28 16r28
+52P9*File_Type 21|22r12 23r12
+53n32*Out_File{53E9} 21|27r19 33r19
+86U14*Create 21|27s4 33s4
+98U14*Close 21|31s4 37s4
+X 12 a-tiflio.ads
+46k21*Float_IO 89e25 21|16r36
+61U14 Put 21|35s12[16]
+X 15 a-tiinio.ads
+46k21*Integer_IO 85e27 21|15r36
+60U14 Put 21|29s12[15]
+X 18 a-timoio.ads
+46k21*Modular_IO 85e27 21|14r36
+X 21 atest.adb
+5U11*atest 5b11 56l5 56t10
+6M9 Byte 7r9 10r44 12r40 14r48 41r26
+8i4 x{integer} 26r12
+8i6 y{integer} 26m4
+9K13 ISIO[6|43] 21r12 51r4 51r24 53r7 55r4
+10K13 BSIO[6|43] 20r12 39r4 39r24 41r7 43r4
+11K13 FSIO[6|43] 19r12 45r4 45r24 47r7 49r4
+12K13 BDIO[2|43]
+14K12 BTIO[18|46]
+15K12 ITIO[15|46] 29r7
+16K12 FTIO[12|46] 35r7
+18e4 C{character}
+19p4 FSLog{6|53P9[11]} 45m17 45r17 47r19 49m16 49r16
+20p4 BSLog{6|53P9[10]} 39m17 39r17 41r19 43m16 43r16
+21p4 ISLog{6|53P9[9]} 51m17 51r17 53r19 55m16 55r16
+22p4 ITLog{10|52P9} 27m12 27r12 29r17 31m11 31r11
+23p4 FTLog{10|52P9} 33m12 33r12 35r17 37m11 37r11
+28i8 X{integer} 29r24
+34i8 X{integer} 35r31
+40i8 X{integer} 41r32
+46i8 X{integer} 47r33
+52i8 X{integer} 53r26
+X 34 s-sequio.ads
+63P9*File_Type(43R9)
+

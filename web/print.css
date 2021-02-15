@@ -1,0 +1,97 @@
+body {
+	width: 960px;
+ 	background-color: white;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: black;
+	letter-spacing: 5px;
+	text-indent: 5%;
+}
+
+h2 {
+	color: black;
+	text-indent: 3%;
+}
+
+h3 {
+	text-indent: 1%;
+}
+
+p:first-letter {
+	color: black;
+	font-size: large;
+}
+
+table {
+	background-color: white;
+	border: 3px solid black;
+}
+
+.kolumna2 {
+	background-color: white;
+}
+
+.kolumna1 {
+	background-color: white;
+}
+
+thead {
+	background-color: white;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+tbody {
+	font-style: italic;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+#Tytuł {
+	font-size: 45px;
+	background-color: white;
+	width: 100%;
+}
+
+#Treść {
+	width: 90%;
+	height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+	float: right;
+	background-color: white;
+}
+
+#Spis_treści {
+	display: none;
+}
+
+#Spis_treści ul li {
+	background-color: white;
+	border-color: black;
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+}
+
+#Obrazek {
+	float: left;
+	clear: none;
+}
+
+#Obrazek2 {
+	float: right;
+	clear: none;
+}

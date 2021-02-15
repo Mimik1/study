@@ -1,0 +1,160 @@
+V "GNAT Lib v7"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U lab4tree%b		lab4tree.adb		9990ccb3 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-nudira.ads		20160418104118 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160418104118 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D lab4tree.adb		20201117091046 2653ed2c lab4tree%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgboo.ads		20090409150019 f5d971eb system.img_bool%s
+D s-imguns.ads		20140717070019 9ff43cf7 system.img_uns%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-rannum.ads		20150205111725 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160418125822 20ba1217 system.random_numbers%b
+D s-ransee.ads		20120130115052 01a57b33 system.random_seed%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-valuns.ads		20150220142606 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 1r40 2r5 2r18 61r23
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|1w23 2r22
+X 5 a-numeri.ads
+16K13*Numerics 32e17 15|1r44 61r27
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 15|1w53 61r36
+50R9 Generator<24|63R9> 15|64r8[61]
+52V13 Random{integer} 15|68s9[61]
+55U14 Reset<24|100p14> 15|66s2[61]
+X 7 a-nudira.adb
+53V16 Random[24|83]{integer} 25|392b13[15|61]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|20s3
+263U14*Put_Line 15|34s6 37s6 197s9 198s9 201s9 202s9 205s9 208s9
+X 11 a-tiinio.ads
+66U14*Put 15|19s3[3|18]
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 15 lab4tree.adb
+4U11*Lab4Tree 4b11 210l5 210t13
+6R6 Node 11e13
+8i6 Data{integer} 19r12 51r16 81r9 83r16 94r16 104r16 106r19 116m42 131r24
+9p6 Left 21r12 22r21 52m18 84r25 95r19 105m18 109r15 112r22 113r17 116m31
+. 130m17 162m28 173m18
+10p6 Right 24r12 25r24 54m18 86r25 93r12 97m28 107m18 109r36 111r17 114r22
+. 133m17 162m50 174m18
+13P6 Node_Ptr 42r31 43r8 59r35 91r41 102r31 125r49 155r32 165r34 178r37 191r8
+15A6 Vektor(integer)<integer> 125r28 137r31 165r56 180r8
+17U11 Pre_Order 17b11 17^21 22s6 25s9 27l5 27t14 39s6
+17p21 Tree(6R6) 19r7 21r7 22r16 24r7 25r19
+30U11 Print 30b11 30^17 40l5 40t10 195s9 200s9 204s9 207s9
+30p17 Tree(6R6) 31r22
+31p3 T(6R6) 33r6 39r16
+42U11 Insert 42b11 42=18 42>41 52s6 54s6 56l5 56t11 69s4 172s3 199s9
+42p18 Tree{13P6} 45r7 47m6 51r11 52r13 54r13
+42i41 D{integer} 46r16 51r7 52r24 54r25
+43p4 E{13P6} 46r6 47r14
+59U11 Add_Random 59b11 59=22 59>45 59>60 72l5 72t15 194s9
+59p22 Tree{13P6} 69m11
+59i45 M{integer} 60r42 68r26
+59i60 N{integer} 67r14
+60I11 Num_Type{integer}
+61K11 Rand[6|44] 62r7
+63i3 D{integer} 68m4 69r17
+64r3 Gen{6|50R9[61]} 66r8 68r16
+67i6 I{integer}
+74V10 Search{boolean} 74b10 74^17 74>36 84s16 86s16 89l5 89t11 197s45 201s45
+. 208s45
+74p17 Tree(6R6) 75r22
+74i36 D{integer} 81r16 83r10 84r31 86r32
+75p3 T(6R6) 77r7 81r7 83r14 84r23 86r23
+91U11 Find_Predecessor 91b11 91=28 91<51 97s6 99l5 99t21 116s9
+91p28 Tree{13P6} 93r7 94r11 95m6 95r14 97r23
+91i51 D{integer} 94m6 97m35
+102U11 Delete 102b11 102=18 102>41 105s6 107s6 122l5 122t11 206s9
+102p18 Tree{13P6} 104r11 105r13 106r14 107r13 109r10 109r31 110m9 111r12
+. 112m9 112r17 113r12 114m9 114r17 116r26 116r37
+102i41 D{integer} 104r7 105r24 106r10 107r25
+125U11 Push 125b11 125=16 125=36 125=59 130s3 133s3 135l5 135t9 183s3
+125a16 Tab{15A6} 130m8 131m3 133m8
+125p36 Tree{13P6} 127r7 130r12 131r19 133r12
+125i59 Counter{integer} 130m23 131r7 132m3 132r14 133m24
+137U11 SortTab 137b11 137=19 153l5 153t12 184s3
+137a19 Tab{15A6} 138r20 143r13 143r22 144r19 145m12 145r22 146m12
+138i3 Size{integer} 142r20 149m6 149r14 150r17
+139i3 Tmp{integer} 144m12 146r24
+142i10 I{integer} 143r17 143r26 144r23 145r16 145r26 146r16
+155V10 TreeSize{integer} 155b10 155=19 162s14 162s36 163l5 163t13 179s20
+155p19 Tree{13P6} 158r7 162r23 162r45
+156i3 X{integer}
+165U11 BuildTree 165b11 165=21 165=44 165>64 165>83 173s3 174s3 176l5 176t14
+. 186s3
+165p21 Tree{13P6} 172m10 173r13 174r13
+165a44 Tab{15A6} 172r16 173m24 174m25
+165i64 Start{integer} 168r7 171r12 173r29
+165i83 TheEnd{integer} 168r15 171r18 174r37
+166i1 Mid{integer} 171m3 172r20 173r36 174r30
+178U11 BalancedTree 178b11 178=24 189l5 189t17 203s9
+178p24 Tree{13P6} 179m29 179r29 183m11 185m3 186m13
+179i3 Size{integer} 180r19 186r26
+180a3 W1{15A6} 183m8 183r8 184m11 184r11 186m19 186r19
+181i3 Counter{integer} 183m16 183r16
+191p1 Tree{13P6} 194m20 194r20 195r15 197r52 199m16 199r16 200r15 201r52
+. 203m22 203r22 204r15 206m16 206r16 207r15 208r52
+X 24 s-rannum.ads
+75V13*Random{13|74M9} 25|221i21
+76V13*Random{13|77M9} 25|221i21
+
